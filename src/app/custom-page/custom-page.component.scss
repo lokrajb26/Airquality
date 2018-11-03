@@ -1,0 +1,62 @@
+@import "../../assets/scss/common.scss";
+
+.banner-content {
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.main-banner-wrapper {
+  min-height: 100vh;
+}
+
+.gb-pro {
+  width: 100.8px;
+  height: 115px;
+}
+
+.mood-icon {
+  width: 100%;
+  padding: 20px;
+}
+
+.forecast-content {
+  padding-top: 15px;
+  border: 1px solid #1B8C64;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 0 11px;
+}
+
+.f-top {
+  h5 {
+    color: $color-style-dgb;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.51px;
+  }
+
+  h4 {
+    color: $color-style-dgb;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    ;
+  }
+
+  h6 {
+    color: $color-style-dgb;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+  }
+}
+
+.stats-temp {}
+
+@media screen and (min-width: 769px) {
+  .stats-info {
+    top: 130px;
+    ;
+    left: 6%;
+    position: relative;
+  }
+}

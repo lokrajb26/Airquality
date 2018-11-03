@@ -1,0 +1,160 @@
+//variable
+$color-style-lgb: #9FDAA9;
+$color-style-dgb: #275B50;
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+//font-family
+.font-sans {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.font-cabin {
+  font-family: 'Cabin', sans-serif;
+}
+
+.content-wrapper {
+  padding: 0px 57px;
+  height: 100%;
+}
+
+.light-txt {
+  opacity: 0.5;
+  color: #000000;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  letter-spacing: 0.4px;
+  line-height: 23px;
+}
+
+.a-text-primary {
+  color: #1B8C64;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  //   line-height: 23px;
+}
+
+.text-style-b {
+  opacity: 0.7;
+  color: #275B50;
+  font-size: 32.46px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  //   line-height: 41px;
+}
+
+.text-style-lgb {
+  font-size: 76.82px;
+  font-weight: bold;
+  letter-spacing: 0.86px;
+  //   line-height: 93px;
+  text-align: center;
+}
+
+.text-style-sgb {
+  font-size: 25.97px;
+  font-weight: bold;
+  letter-spacing: 0.29px;
+  //   line-height: 31px;
+  text-align: center;
+}
+
+.color-style-lgb {
+  color: $color-style-lgb
+}
+
+.color-style-dgb {
+  color: $color-style-dgb;
+}
+
+.green-b-b {
+  border-bottom: 1px solid rgba($color-style-dgb, 0.4);
+}
+
+.forecast-txt {
+  color: $color-style-dgb;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  display: inline-block;
+  //   line-height: 39px;
+}
+
+.forecast-sub-txt li.active {
+  opacity: 1;
+}
+
+.forecast-sub-txt li {
+  opacity: 0.5;
+  color: $color-style-dgb;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.25px;
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+.temp-txt-top {
+  opacity: 0.7;
+  color: $color-style-dgb;
+  ;
+  font-size: 15.15px;
+  font-weight: 600;
+  letter-spacing: 0.36px;
+}
+
+.temp-txt-bottom {
+  color: $color-style-dgb;
+  font-size: 43.28px;
+  font-weight: bold;
+  letter-spacing: 0.48px;
+}
+
+.padding-t-req {
+  padding: 140px 10px;
+}
+
+.cont-cond {
+  background: #ffffff;
+  padding: 11px 0px;
+}
+
+.cont-txt-txt {
+  font-size: 15px;
+}
+
+.cont-txt-val {
+  font-size: 20px;
+}
+
+.cont-txt-txt,
+.cont-txt-val {
+
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  text-align: center;
+
+  &.ex-green {
+    color: #92DF9C;
+  }
+
+  &.gd-green {
+    color: #83D297;
+  }
+
+  &.bad-red {
+    color: #FA7770;
+  }
+
+  &.vbad-red {
+    color: #E7413B;
+  }
+
+  &.mod-red {
+    color: #FFA772;
+  }
+}
